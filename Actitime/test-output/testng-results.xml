@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database is connected]]>
+    </line>
+    <line>
+      <![CDATA[browser close]]>
+    </line>
+    <line>
+      <![CDATA[database is disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-19T13:26:48 IST" name="Default suite" finished-at="2023-01-19T13:27:43 IST" duration-ms="55127">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T13:26:48 IST" name="Default test" finished-at="2023-01-19T13:27:43 IST" duration-ms="55127">
+      <class name="com.crm.Actitime.testscript.CreateCustomer">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:26:48 IST" name="databaseconnection" finished-at="2023-01-19T13:26:48 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database is connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseconnection -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:26:48 IST" name="launchbrowser" finished-at="2023-01-19T13:27:00 IST" duration-ms="11646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:27:00 IST" name="login" finished-at="2023-01-19T13:27:04 IST" duration-ms="4331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateCustomer()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:27:04 IST" name="CreateCustomer" finished-at="2023-01-19T13:27:38 IST" duration-ms="33894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:27:38 IST" name="logout" finished-at="2023-01-19T13:27:43 IST" duration-ms="4996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:27:43 IST" name="closeBrowser" finished-at="2023-01-19T13:27:43 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="databasedisconnection()[pri:0, instance:com.crm.Actitime.testscript.CreateCustomer@5119fb47]" started-at="2023-01-19T13:27:44 IST" name="databasedisconnection" finished-at="2023-01-19T13:27:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database is disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databasedisconnection -->
+      </class> <!-- com.crm.Actitime.testscript.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
